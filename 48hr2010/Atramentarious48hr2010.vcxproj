@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{60F41E17-8DA1-4896-A37C-EF2F412D9EA9}</ProjectGuid>
+    <RootNamespace>Atramentarious48hr2010</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\Paul\Documents\Visual Studio 2010\hge181\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Users\Paul\Documents\Visual Studio 2010\hge181\lib\vc;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\Paul\Documents\Visual Studio 2010\hge181\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Users\Paul\Documents\Visual Studio 2010\hge181\lib\vc;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>XInput.lib;hge.lib;hgehelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBC.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>hge.lib;hgehelp.lib;xinput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBC.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimatedObject.cpp" />
+    <ClCompile Include="Bar.cpp" />
+    <ClCompile Include="Beer.cpp" />
+    <ClCompile Include="Building.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="DayNight.cpp" />
+    <ClCompile Include="Den.cpp" />
+    <ClCompile Include="DrunkGamer.cpp" />
+    <ClCompile Include="Egg.cpp" />
+    <ClCompile Include="Fatty.cpp" />
+    <ClCompile Include="hgeRectExt.cpp" />
+    <ClCompile Include="Hooker.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="KeyboardWASD.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Minion.cpp" />
+    <ClCompile Include="ParticleController.cpp" />
+    <ClCompile Include="PlayerController.cpp" />
+    <ClCompile Include="Raptor.cpp" />
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="ResourceIcon.cpp" />
+    <ClCompile Include="SoundController.cpp" />
+    <ClCompile Include="Speedling.cpp" />
+    <ClCompile Include="StaticObject.cpp" />
+    <ClCompile Include="Target.cpp" />
+    <ClCompile Include="TitleScreen.cpp" />
+    <ClCompile Include="Tricero.cpp" />
+    <ClCompile Include="Unit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatedObject.h" />
+    <ClInclude Include="Bar.h" />
+    <ClInclude Include="Beer.h" />
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="DayNight.h" />
+    <ClInclude Include="Den.h" />
+    <ClInclude Include="DrunkGamer.h" />
+    <ClInclude Include="Egg.h" />
+    <ClInclude Include="Fatty.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="hgeRectExt.h" />
+    <ClInclude Include="Hooker.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="KeyboardWASD.h" />
+    <ClInclude Include="Minion.h" />
+    <ClInclude Include="ParticleController.h" />
+    <ClInclude Include="PlayerController.h" />
+    <ClInclude Include="Raptor.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceIcon.h" />
+    <ClInclude Include="SoundController.h" />
+    <ClInclude Include="Speedling.h" />
+    <ClInclude Include="StaticObject.h" />
+    <ClInclude Include="Target.h" />
+    <ClInclude Include="Renderable.h" />
+    <ClInclude Include="TitleScreen.h" />
+    <ClInclude Include="Tricero.h" />
+    <ClInclude Include="Unit.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

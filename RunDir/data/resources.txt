@@ -1,0 +1,181 @@
+Sprite egg
+{
+ texture=data\graphics\egg.png
+ rect=0,0,96,96
+ hotspot=48,48
+ resgroup=0
+}
+
+Sprite beer
+{
+ texture=data\graphics\beer.png
+ rect=0,0,96,96
+ hotspot=48,48
+ resgroup=0
+}
+
+Sprite raptor
+{
+ texture=data\graphics\minions\dinosaurs\Raptor.png
+ rect=0,0,128,128
+ hotspot=64,64
+ resgroup=0
+}
+
+Sprite trice
+{
+ texture=data\graphics\minions\dinosaurs\Trice.png
+ rect=0,0,500,250
+ hotspot=250,125
+ resgroup=0
+}
+
+Sprite speedling
+{
+ texture=data\graphics\minions\dinosaurs\speedling.png
+ rect=0,0,128,128
+ hotspot=64,64
+ resgroup=0
+}
+
+Sprite nerd
+{
+ texture=data\graphics\minions\bar\Nerd.png
+ rect=0,0,128,128
+ hotspot=64,64
+ resgroup=0
+}
+
+Sprite hooker
+{
+ texture=data\graphics\minions\bar\Hooker.png
+ rect=0,0,128,128
+ hotspot=64,64
+ resgroup=0
+}
+
+Sprite bar
+{
+ texture=data\screens\map\bar.png
+ rect=0,0,267,900
+ hotspot=133,550
+ resgroup=0
+}
+
+Sprite den
+{
+ texture=data\screens\map\cave.png
+ rect=0,0,267,900
+ hotspot=133,550
+ resgroup=0
+}
+
+Font resourceFnt
+{
+ filename=data\fonts\resource.fnt
+ tracking=1.0
+ resgroup=0
+}
+
+Sprite particle
+{
+ texture=data\particles\particles.png
+ rect=0,0,32,32
+ hotspot=16,16
+ resgroup=0
+}
+
+Particle artillery
+{
+ filename=data\particles\boomCloud.psi
+ sprite=particle
+ resgroup=0
+}
+
+Sprite dinoTarget
+{
+ texture=data\icons\targets.png
+ rect=0,0,128,128
+ hotspot=64,64
+ resgroup=0
+}
+
+Sprite barTarget
+{
+ texture=data\icons\targets.png
+ rect=128,0,128,128
+ hotspot=64,64
+ resgroup=0
+}
+
+Sprite startButton
+{
+ texture=data\icons\start.png
+ rect=0,0,350,64
+ hotspot=175,0
+ resgroup=0
+}
+
+Sprite menuButtonCreditsNoneGlow
+{
+ texture=data\icons\menuButtons\CreditsButtons_1.png
+ rect=0,0,720,900
+ hotspot=0,0
+ resgroup=0
+}
+
+Sprite menuButtonPlayNoneGlow
+{
+ texture=data\icons\menuButtons\PlayButton_1.png
+ rect=0,0,720,900
+ hotspot=0,0
+ resgroup=0
+}
+
+Sprite menuButtonQuitNoneGlow
+{
+ texture=data\icons\menuButtons\QuitButton_1.png
+ rect=0,0,720,900
+ hotspot=0,0
+ resgroup=0
+}
+
+Sprite menuButtonInstructionsNoneGlow
+{
+ texture=data\icons\menuButtons\InstructionsButton_1.png
+ rect=0,0,720,900
+ hotspot=0,0
+ resgroup=0
+}
+
+Sprite menuButtonCreditsGlow
+{
+ texture=data\icons\menuButtons\GlowCreditsButtons_1.png
+ rect=0,0,720,900
+ hotspot=0,0
+ resgroup=0
+}
+
+Sprite menuButtonPlayGlow
+{
+ texture=data\icons\menuButtons\GlowPlayButton_1.png
+ rect=0,0,720,900
+ hotspot=0,0
+ resgroup=0
+}
+
+Sprite menuButtonQuitGlow
+{
+ texture=data\icons\menuButtons\GlowQuitButton_1.png
+ rect=0,0,720,900
+ hotspot=0,0
+ resgroup=0
+}
+
+Sprite menuButtonInstructionsGlow
+{
+ texture=data\icons\menuButtons\GlowInstructionsButton_1.png
+ rect=0,0,720,900
+ hotspot=0,0
+ resgroup=0
+}
