@@ -142,6 +142,20 @@ MonoBehaviour:
       eventInfo: 
       eventInt: 0
       eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 1a8d09ed630c1e4419fbdcb24c8a51c2,
+        type: 2}
+      spriteId: 10
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 1a8d09ed630c1e4419fbdcb24c8a51c2,
+        type: 2}
+      spriteId: 10
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
     fps: 3
     loopStart: 0
     wrapMode: 0

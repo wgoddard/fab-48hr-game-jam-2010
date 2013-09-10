@@ -1,0 +1,1 @@
+C:\android_bundle\sdk\platform-tools\adb.exe install -r 1.apk

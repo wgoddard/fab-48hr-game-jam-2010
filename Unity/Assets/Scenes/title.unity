@@ -246,7 +246,7 @@ MonoBehaviour:
     aspectRatioDenominator: 3
     scale: 1
     offsetPixels: {x: 0, y: 0}
-    autoScaleMode: 3
+    autoScaleMode: 4
     fitMode: 1
   inheritSettings: {fileID: 0}
   nativeResolutionWidth: 1440
@@ -256,7 +256,7 @@ MonoBehaviour:
   viewportRegion: {x: 0, y: 0, z: 100, w: 100}
   zoomFactor: 1
   forceResolutionInEditor: 1
-  forceResolution: {x: 1440, y: 900}
+  forceResolution: {x: 1280, y: 800}
 --- !u!20 &829807643
 Camera:
   m_ObjectHideFlags: 3
