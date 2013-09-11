@@ -69,7 +69,7 @@ MonoBehaviour:
       eventInfo: 
       eventInt: 0
       eventFloat: 0
-    fps: 5
+    fps: 4
     loopStart: 0
     wrapMode: 0
   - name: Walk
