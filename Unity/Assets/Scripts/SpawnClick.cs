@@ -7,10 +7,15 @@ public class SpawnClick : MonoBehaviour {
 	public GameObject spawnPrefab;
 	public GameObject spawnLocation;
 	public Resource resourceSource;
+	
+	private Character spawnCode;
 
 	// Use this for initialization
 	void Start () {
 		
+		if (spawnPrefab != null) {
+			spawnCode = spawnPrefab.GetComponent("Character") as Character;
+		}
 	
 	}
 	
@@ -37,8 +42,11 @@ public class SpawnClick : MonoBehaviour {
 
     private void Spawn()
     {
-        GameObject spawned = GameObject.Instantiate (spawnPrefab) as GameObject;
-		spawned.transform.position = spawnLocation.transform.position;
+		if (resourceSource.resourceCount >= spawnCode.spawnCost) {
+			resourceSource.resourceCount -= spawnCode.spawnCost;
+	        GameObject spawned = GameObject.Instantiate (spawnPrefab) as GameObject;
+			spawned.transform.position = spawnLocation.transform.position;
+		}
     }
 
 }
